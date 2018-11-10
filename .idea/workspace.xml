@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ae00ce1-604d-42a3-9df2-b1e9e32c20c1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndex.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/Inputs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/TreeNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndexTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practices.iml" afterPath="$PROJECT_DIR$/practices.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndex.java" afterPath="$PROJECT_DIR$/src/main/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndex.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndexTest.java" afterPath="$PROJECT_DIR$/src/test/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndexTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,21 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NumberOfElementsWithSmallerValuesAndGreaterIndex.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumberOfElementsWithSmallerValuesAndGreaterIndex.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="594">
+              <caret line="47" column="73" lean-forward="false" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberOfElementsWithSmallerValuesAndGreaterIndexTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NumberOfElementsWithSmallerValuesAndGreaterIndexTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndexTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="374">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,8 +58,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/strengthenVII/Number.java" />
-        <option value="$PROJECT_DIR$/src/main/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndex.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndex.java" />
         <option value="$PROJECT_DIR$/src/test/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndexTest.java" />
       </list>
     </option>
@@ -187,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArray">
+  <component name="RunManager" selected="JUnit.NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest2">
     <configuration name="NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -201,6 +191,56 @@
       <option name="PACKAGE_NAME" value="strengthenVII" />
       <option name="MAIN_CLASS_NAME" value="strengthenVII.NumberOfElementsWithSmallerValuesAndGreaterIndexTest" />
       <option name="METHOD_NAME" value="getArray" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="strengthenVII.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="practices" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="strengthenVII" />
+      <option name="MAIN_CLASS_NAME" value="strengthenVII.NumberOfElementsWithSmallerValuesAndGreaterIndexTest" />
+      <option name="METHOD_NAME" value="getArrayTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="strengthenVII.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="practices" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="strengthenVII" />
+      <option name="MAIN_CLASS_NAME" value="strengthenVII.NumberOfElementsWithSmallerValuesAndGreaterIndexTest" />
+      <option name="METHOD_NAME" value="getArrayTest2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -294,9 +334,16 @@
       <properties />
       <listeners />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArray" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest2" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest1" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArray" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest1" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArray" />
       </list>
     </recent_temporary>
   </component>
@@ -318,8 +365,41 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="NumberOfElementsWithSmallerValuesAndGreaterIndexTest_getArrayTest1 - 2018.11.10 at 11h 28m 14s.xml">
+      <configuration name="NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfElementsWithSmallerValuesAndGreaterIndexTest_getArrayTest1 - 2018.11.10 at 11h 44m 08s.xml">
+      <configuration name="NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfElementsWithSmallerValuesAndGreaterIndexTest_getArrayTest2 - 2018.11.10 at 11h 28m 01s.xml">
+      <configuration name="NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfElementsWithSmallerValuesAndGreaterIndexTest_getArrayTest2 - 2018.11.10 at 11h 28m 42s.xml">
+      <configuration name="NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfElementsWithSmallerValuesAndGreaterIndexTest_getArrayTest2 - 2018.11.10 at 11h 33m 20s.xml">
+      <configuration name="NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfElementsWithSmallerValuesAndGreaterIndexTest_getArrayTest2 - 2018.11.10 at 11h 34m 07s.xml">
+      <configuration name="NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfElementsWithSmallerValuesAndGreaterIndexTest_getArrayTest2 - 2018.11.10 at 11h 34m 23s.xml">
+      <configuration name="NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfElementsWithSmallerValuesAndGreaterIndexTest_getArrayTest2 - 2018.11.10 at 11h 38m 21s.xml">
+      <configuration name="NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfElementsWithSmallerValuesAndGreaterIndexTest_getArrayTest2 - 2018.11.10 at 11h 43m 27s.xml">
+      <configuration name="NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfElementsWithSmallerValuesAndGreaterIndexTest_getArrayTest2 - 2018.11.10 at 11h 44m 35s.xml">
+      <configuration name="NumberOfElementsWithSmallerValuesAndGreaterIndexTest.getArrayTest2" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -330,7 +410,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -340,7 +420,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39903265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -356,15 +436,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndex.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -409,18 +481,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndexTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="594">
+          <caret line="47" column="73" lean-forward="false" selection-start-line="47" selection-start-column="73" selection-end-line="47" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndex.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/strengthenVII/NumberOfElementsWithSmallerValuesAndGreaterIndexTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
