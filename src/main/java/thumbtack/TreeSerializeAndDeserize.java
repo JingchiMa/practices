@@ -29,8 +29,6 @@ public class TreeSerializeAndDeserize {
         String[] values = data.split(SEPARATOR);
         int[] index = new int[1];
         TreeNode root = construct(values, index);
-        System.out.println(values.length);
-        System.out.println(index[0]);
         return root;
     }
 
