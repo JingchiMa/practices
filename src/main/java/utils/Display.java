@@ -19,13 +19,17 @@ public class Display {
         }
     }
 
-    public static void display(int[][] matrix) {
+    public static String display(int[][] matrix) {
+        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
                 System.out.print(matrix[i][j] + " ");
+                sb.append(matrix[i][j]).append(" ");
             }
             System.out.println();
+            sb.append("\n");
         }
+        return sb.toString();
     }
 
     public static void display(int[] array) {
