@@ -1,7 +1,5 @@
 package multithreads.producerConsumer;
 
-import java.util.Queue;
-
 public class Producer implements Runnable {
 
     private SharedQueue sharedQueue;

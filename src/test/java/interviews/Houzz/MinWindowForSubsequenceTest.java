@@ -19,5 +19,11 @@ public class MinWindowForSubsequenceTest {
         System.out.println(instance.minimumSubstring("cnhczmccqouqadqtmjjzl","cm"));
     }
 
+    @Test
+    public void minWindowIITest() throws Exception {
+        MinWindowForSubsequence instance = new MinWindowForSubsequence();
+        System.out.println(instance.minWindowII("cnhczmccqouqadqtmjjzl","cm"));
+    }
+
 
 }

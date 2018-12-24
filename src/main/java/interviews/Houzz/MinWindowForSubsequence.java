@@ -160,4 +160,55 @@ public class MinWindowForSubsequence {
         return s.substring(globalLeft, globalRight);
     }
 
+    public String minWindowII(String s, String t) {
+        /*
+        pt: the index of character in T that needs to be matched next
+        pt = 0 -> initial state
+        */
+
+        int left = 0;
+        int right = 0; // the sliding window to check is [left, right]
+        int pt = 0;
+        int min = Integer.MAX_VALUE;
+        int start = 0;
+        int end = 0; // exclusive
+        while (right < s.length()) {
+            while (right < s.length() && pt < t.length()) {
+                if (s.charAt(right) == t.charAt(pt)) {
+                    pt++;
+                }
+                right++;
+            }
+            if (pt == t.length()) {
+                int index = right - 1;
+                int matched = pt - 1;
+                while (matched >= 0) {
+                    if (s.charAt(index) == t.charAt(matched)) {
+                        matched--;
+                    }
+                    index--;
+                }
+                // (index, right)
+                if (min > right - index - 1) {
+                    start = index + 1;
+                    end = right;
+                    min = right - index - 1;
+                }
+                left = index + 2;
+                //pt = 0; // this step is wrong, you can't set pt = 0.
+                // In other words, the state for the next window can't be inherited from the previous one
+            }
+        }
+        return s.substring(start, end);
+    }
+
+    public static void main(String[] args) {
+        String s = "ffynmlzesdshlvugsigobutgaetsnjlizvqjdpccdylclqcbghhixpjihximvhapymfkjxyyxfwvsfyctmhwmfjyjidnfryiyajmtakisaxwglwpqaxaicuprrvxybzdxunypzofhpclqiybgniqzsdeqwrdsfjyfkgmejxfqjkmukvgygafwokeoeglanevavyrpduigitmrimtaslzboauwbluvlfqquocxrzrbvvplsivujojscytmeyjolvvyzwizpuhejsdzkfwgqdbwinkxqypaphktonqwwanapouqyjdbptqfowhemsnsl";
+        String b = "nevavyrpduigitmrimtaslzboauwbluvlfqquocxrzrbvvplsivujojscytmeyjolvvyzwizpuhejsdzkfwgqdbwinkxqypaph";
+        String t = "ntimcimzah";
+        MinWindowForSubsequence instance = new MinWindowForSubsequence();
+        System.out.println(s.charAt(28));
+        // instance.minWindowII(s, t);
+    }
+
 }
