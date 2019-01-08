@@ -1,4 +1,4 @@
-package arista;
+package interviews.arista;
 
 import utils.ListNode;
 

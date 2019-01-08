@@ -1,4 +1,4 @@
-package arista;
+package interviews.arista;
 
 public class Sudoku {
     public static void main(String[] args) {

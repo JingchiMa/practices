@@ -1,9 +1,6 @@
-package arista;
+package interviews.arista;
 
 import org.junit.Test;
-import strengthenIV.ValidParentheses;
-
-import static org.junit.Assert.*;
 
 public class ValidSudokuTest {
     @Test

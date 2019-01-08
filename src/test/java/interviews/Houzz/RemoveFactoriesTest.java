@@ -1,9 +1,6 @@
 package interviews.Houzz;
 
-import arista.RemoveNotFibonacci;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class RemoveFactoriesTest {
     @Test
